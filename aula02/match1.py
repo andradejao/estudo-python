@@ -1,8 +1,8 @@
-print("Este programa analisa os valores digitados de 0 a 6 e diz o dia da semana")
+print("Este programa analisa os valores digitados de 0 a 6 e diz o dia da semana \n")
 digito = input("Digite um número de 0 a 6: ")
 
 match digito:
-    case '0':
+    case '0':       # Utilize o símbolo "|" para usar duas variáveis para o mesmo case
         print("Domingo")
     case '1':
         print("Segunda-Feira")
